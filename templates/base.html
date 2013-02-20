@@ -30,16 +30,14 @@
       {% include "navbar.html" %}
 
       <!-- START Content -->
-      {% block content %}
-      <p>
-        Main content
-      </p>
+      <div class="content">
+        {% block content %}
+        <p>
+          Main content
+        </p>
       {% endblock %}
+      </div>
       <!-- END Content -->
-
-      <p class="text-right">
-        <small>Copyright 2013 Allan Beaufour</small>
-      </p>
     </div>
 
     <script src="{{ STATIC_URL }}/js/jquery.min.js"></script>
