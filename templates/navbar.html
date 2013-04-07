@@ -2,10 +2,10 @@
 <div class="navbar">
   <div class="navbar-inner">
     <ul class="nav">
-      <li class="active"><a href="{{ ROOT_URL }}">b e a u f o u r . d k</a></li>
-      <li><a href="{{ ROOT_URL }}/code.html">code</a></li>
-      <li><a href="{{ ROOT_URL }}/photos.html">photos</a></li>
-      <li><a href="{{ ROOT_URL }}/about.html">about</a></li>
+      <li{% if section == "index" %} class="active"{% endif %}><a href="{{ ROOT_URL }}">b e a u f o u r . d k</a></li>
+      <li{% if section == "code" %} class="active"{% endif %}><a href="{{ ROOT_URL }}/code.html">code</a></li>
+      <li{% if section == "photos" %} class="active"{% endif %}><a href="{{ ROOT_URL }}/photos.html">photos</a></li>
+      <li{% if section == "about" %} class="active"{% endif %}><a href="{{ ROOT_URL }}/about.html">about</a></li>
     </ul>
   </div>
 </div>
