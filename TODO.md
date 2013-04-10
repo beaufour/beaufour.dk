@@ -1,4 +1,3 @@
-* implement the code pull down from github
-* favicon
-* slightly nicer About page -- something's not right with the layout
+* implement getrepos.py as a Cactus plugin instead of the manual stuff
+* automatically upload favicon.ico
 * html5 slide show would be nice...
