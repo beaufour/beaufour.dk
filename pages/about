@@ -1,4 +1,5 @@
 section: about
+title: About
 
 {% extends "base.html" %}
 

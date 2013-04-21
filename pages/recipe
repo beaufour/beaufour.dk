@@ -1,4 +1,5 @@
 section: misc
+title: Recipe Collection
 
 {% extends "base.html" %}
 
