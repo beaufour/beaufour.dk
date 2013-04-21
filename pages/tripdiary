@@ -5,6 +5,10 @@ title: Trip Diary 2003
 
 {% block content %}
 <h1>Diary</h1>
+<p>
+Trip diary from my 2003/2004 trip around the globe.
+</p>
+
 <h2>18/11</h2>
 <p>
 Montreal. Eating out with Nannas friends from the conference. Crashed
