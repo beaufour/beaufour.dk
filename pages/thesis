@@ -1,0 +1,32 @@
+section: misc
+
+{% extends "base.html" %}
+
+{% block content %}
+<p>
+  My Master's Thesis from 2003: Secure Access Control Using Mobile Bluetooth Devices.
+</p>
+
+<p>
+<i>Abstract:</i>
+<blockquote>Personal servers are an attractive concept: People carry around a
+  device that takes care of computing, storage and communication on
+  their behalf in a pervasive computing environment. So far personal
+  servers have mainly been considered for accessing personal
+  information. In this paper, we consider personal servers in the
+  context of a digital key system. Digital keys are an interesting
+  alternative to physical keys for mail or good delivery companies whose
+  employees access tens of private buildings every day. In this paper,
+  we present a digital key system tailored for the current incarnation
+  of personal servers, i.e., a Bluetooth-enabled mobile phone. We
+  describe how to use Bluetooth for this application, we present a
+  simple authentication protocol and we provide a detailled analysis of
+  response time and energy consumption on the mobile phone.
+</blockquote>
+</p>
+
+<p>
+<a href="{{ STATIC_URL }}/misc/beaufour03personal.pdf">PERCOM 2004 article</a> (PDF);
+<a href="{{ STATIC_URL }}/misc/beaufour03secure.pdf">full thesis</a> (PDF); <a href="{{ STATIC_URL }}/misc/computerworld.jpg">article in Computerworld</a> (PIC).
+</p>
+{% endblock %}
