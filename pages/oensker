@@ -1,0 +1,39 @@
+section: misc
+title: Ønskeliste
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Ønskeliste</h1>
+<p>
+  Listen er ikke prioriteret...
+</p>
+
+<ul>
+  <li>rå mængder kløvet brænde</li>
+  <li>robust foldebord</li>
+  <li>udendørs lille bord + 4 stole arrangement (behøver ikke være fancy)</li>
+  <li>gode robuste 3x3 pavillioner (ikke de billige)</li>
+  <li>ny "muret" grill</li>
+  <li>DVDer, <b>meget gerne</b> med engelske undertekster:
+    <ul>
+      <li>Borgen</li>
+      <li>Forbrydelsen</li>
+      <li>Broen</li>
+    </ul>
+  </li>
+  <li>ting man kan bruge til sommerfester :)</li>
+  <li>bøger:
+        <ul>
+          <li><a href="http://www.g.dk/bog/zen-og-kunsten-at-lede---sig-selv-og-andre-rients-ritskes_9788774664680">Rients Ritskes - ZEN og kunsten at lede</a></li>
+          <li><a href="http://www.g.dk/bog/uro-jesper-stein_9788740005943">Jesper Stein - Uro</a>
+          <li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fregistry%2Fwishlist%2F9ZT1OBURBZ76&tag=beaufourdk-20&linkCode=ur2&camp=1789&creative=390957">Amazon wish-list</a> -- behøver ikke nødvendigvis købes på Amazon :)</li>
+          <li>Photo book with pictures by Henri Cartier-Bresson</li>
+          <li> <a href="http://www.gad.dk/?/bog.asp?id=169043">Rudolf Höss: Kommandant i Auschwitz</a></li>
+          <li> Thomas E. Kennedy: Greene's Summer</li>
+        </ul>
+  </li>
+  <li>gode ideer til ønsker ... find selv på flere :)</li>
+</ul>
+
+{% endblock %}
