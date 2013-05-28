@@ -1,5 +1,5 @@
-section: code
-title: Code
+section: projects
+title: Projects
 
 {% extends "base.html" %}
 
