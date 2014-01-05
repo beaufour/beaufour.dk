@@ -11,7 +11,7 @@ Running it locally
 Or really what you want to do:
 
     pip install virtualenv
-    virtualenv .
-    source bin/activate
-    pip install cactus
-    cactus serve
+    virtualenv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    .venv/bin/cactus serve
