@@ -31,7 +31,7 @@ Uploading
 
 To upload a new version run
 
-    > .venv/bin/cactus/deploy
+    > .venv/bin/cactus deploy
 
 Known bugs
 ==========
