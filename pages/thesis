@@ -27,7 +27,7 @@ title: Master's Thesis
 </p>
 
 <p>
-<a href="{{ STATIC_URL }}/misc/beaufour03personal.pdf">PERCOM 2004 article</a> (PDF);
-<a href="{{ STATIC_URL }}/misc/beaufour03secure.pdf">full thesis</a> (PDF); <a href="{{ STATIC_URL }}/misc/computerworld.jpg">article in Computerworld</a> (PIC).
+<a href="{% static '/misc/beaufour03personal.pdf' %}">PERCOM 2004 article</a> (PDF);
+<a href="{% static '/misc/beaufour03secure.pdf' %}">full thesis</a> (PDF); <a href="{% static '/misc/computerworld.jpg' %}">article in Computerworld</a> (PIC).
 </p>
 {% endblock %}

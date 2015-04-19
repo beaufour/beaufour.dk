@@ -3,7 +3,7 @@ section: index
 {% extends "base.html" %}
 
 {% block header %}
-<link href="{{ STATIC_URL }}/css/icons.css" rel="stylesheet">
+<link href="{% static '/css/icons.css' %}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}

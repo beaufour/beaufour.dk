@@ -8,7 +8,7 @@ title: About
 
   <div class="span6 text-center">
     <p>
-      <img src="{{ STATIC_URL }}/img/beaufour.jpg"/>
+      <img src="{% static '/img/beaufour.jpg' %}"/>
     </p>
   </div>
 
