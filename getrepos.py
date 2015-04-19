@@ -16,7 +16,7 @@ import requests
 def main():
     repos = requests.get('https://api.github.com/users/beaufour/repos')
 
-    data = repos.json
+    data = repos.json()
     out = []
     for entry in data:
         out.append('  <dt><a href="{0}">{1}</a></dt>'.format(entry['html_url'], entry['name']))
