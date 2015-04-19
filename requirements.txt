@@ -1,4 +1,4 @@
--e git+git@github.com:beaufour/Cactus.git@9202d4cec20aa59a9b9b8999def88a42afe05b4a#egg=Cactus
+-e git+git@github.com:beaufour/Cactus.git@b7d0535c2b1b700d2512edb8ea6594f67fdb188c#egg=Cactus
 Django==1.5.5
 Markdown==2.2.1
 boto==2.8.0
