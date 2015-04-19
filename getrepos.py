@@ -19,6 +19,9 @@ def main():
     data = repos.json()
     out = []
     for entry in data:
+        if entry['private']:
+            continue
+
         out.append('  <dt><a href="{0}">{1}</a></dt>'.format(entry['html_url'], entry['name']))
         out.append('  <dd>{0}{1}</dd>'.format(entry['description'], " <i>(fork)</i>" if entry['fork'] else ""))
         out.append('')
