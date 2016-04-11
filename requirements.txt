@@ -1,5 +1,5 @@
--e git+git@github.com:beaufour/Cactus.git@b7d0535c2b1b700d2512edb8ea6594f67fdb188c#egg=Cactus
-Django==1.5.5
-Markdown==2.2.1
-boto==2.8.0
+-e git+git@github.com:beaufour/Cactus.git@3a07b52e41aa4ad337f65b9c49b10dc5b533be19#egg=Cactus
+Django>=1.6,<1.7
+markdown2
+boto==2.39.0
 glue==0.4
