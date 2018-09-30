@@ -1,9 +1,0 @@
-*.pyc
-.build/
-/.Python
-/bin
-/config.json
-/include
-/lib
-.venv
-/.deploy/
