@@ -15,7 +15,33 @@
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="static/css/main.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    section {
+      border-radius: 1em;
+      padding: 1em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+    }
+
+    a {
+      display: inline;
+      margin: 5px;
+    }
+
+    .home-logo {
+      font-size: 180px;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -26,13 +52,13 @@
 
     <!-- Icons from https://www.iconfinder.com/rebininfotech -->
     <a rel="me" title="Twitter" href="http://twitter.com/beaufour"><img width="23px" height="23px"
-        src="static/img/twitter.svg" /></a>
+        src="static/img/twitter.svg" alt="Twitter" /></a>
     <a rel="me" title="LinkedIn" href="http://www.linkedin.com/in/beaufour"><img width="23px" height="23px"
-        src="static/img/linkedin.svg" /></a>
-    <a rel="me" title="GitHub" href="http://github.com/beaufour"><img width="23px" height="23px"
+        alt="LinkedIn" src="static/img/linkedin.svg" /></a>
+    <a rel="me" title="GitHub" href="http://github.com/beaufour"><img width="23px" height="23px" alt="GitHub"
         src="static/img/github.svg" /></a>
     <a rel="me" title="Instagram" href="https://www.instagram.com/beaufour/"><img width="23px" height="23px"
-        src="static/img/instagram.svg" /></a>
+        alt="Instagram" src="static/img/instagram.svg" /></a>
   </section>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRQ4LKH89H"></script>
