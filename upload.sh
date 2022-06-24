@@ -10,4 +10,4 @@ echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
 fi
-aws s3 sync --acl public-read --exclude ".git*" --exclude "upload.sh" . s3://$BUCKET/
+aws s3 sync --acl public-read --exclude "*.git*" --exclude "*.DS_Store" --exclude "upload.sh" . s3://$BUCKET/
